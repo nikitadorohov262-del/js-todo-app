@@ -1,8 +1,15 @@
-#ti{
-background-color: green;
-color: black;
-cursor: pointer;
-padding: 10px 20px;
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #2b2b2b;
+	margin: 0;
 }
-p{
+.weather-card{
+	background-color: #3c3c3c;  /* Цвет самой карточки (чуть светлее фона) */
+    padding: 30px;              /* Внутренние отступы, чтобы элементы не прилипали к краям */
+    border-radius: 15px;        /* Скругляем углы */
+    text-align: center;         /* Текст внутри карточки ставим по центру */
+    color: white;
 }
