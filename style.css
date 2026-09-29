@@ -36,4 +36,16 @@ button:hover{
 	cursor: pointer;
 	transform: scale(1.05);
 }
+#historyBlock{
+	max-height: 200px;
+	overflow-y: auto;
+}
 
+#historyBlock::-webkit-Scrollbar{
+	width: 6px;
+}
+
+#historyBlock::-webkit-Scrollbar-thumb{
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.2);	
+}
